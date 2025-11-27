@@ -4,6 +4,7 @@ import SectionPaket from "@/components/SectionPaket";
 import SectionTestimoni from "@/components/SectionTestimoni";
 import SectionJadwal from "@/components/SectionJadwal";   // ⬅️ tambah ini
 import Footer from "@/components/Footer";
+import SectionPembimbing from "@/components/SectionPembimbing";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
 
         {/* SECTION TESTIMONI */}
         <SectionTestimoni />
+        
+        <SectionPembimbing />
 
         {/* SECTION JADWAL */}
         <SectionJadwal />
