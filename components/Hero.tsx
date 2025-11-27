@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="relative h-[90vh] w-full flex items-center justify-center text-white">
+    <section className="relative h-[90vh] w-full flex items-center justify-center text-white pt-[90px]">
       {/* BACKGROUND IMAGE */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/55 backdrop-blur-[1px]" />
 
       {/* CONTENT */}
-      <div className="relative text-center px-6 max-w-3xl">
+      <div className="relative text-center px-6 max-w-3xl z-10">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight font-playfair mb-6">
           Umroh Aman, Nyaman & Resmi  
           <span className="text-[#C29A45]"> Untuk Keluarga Indonesia</span>
@@ -58,7 +58,7 @@ export default function Hero() {
       </div>
 
       {/* GRADIENT FADE TO BODY */}
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-white"></div>
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-white pointer-events-none"></div>
     </section>
   );
 }
