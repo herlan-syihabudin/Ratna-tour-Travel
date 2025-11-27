@@ -1,5 +1,5 @@
-import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -7,13 +7,10 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-
-      {/* ===================== SECTION KONTEN BAWAH ===================== */}
       <main className="w-full">
-        {/* SECTION PAKET akan masuk di sini nanti (Step 3) */}
+        {/* nanti Section Paket masuk di sini */}
       </main>
-
-      <Footer />
+      <Footer />  {/* Footer harus ada di bawah */}
     </>
   );
 }
